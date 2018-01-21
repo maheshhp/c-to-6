@@ -1,4 +1,4 @@
-const tempStr = require("./arrow-fn");
+const arrowFn = require("./arrow-fn");
 
 test("Returns null for no argumnets", () => {
   expect(arrowFn()).toBe(null);

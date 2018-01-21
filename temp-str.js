@@ -7,6 +7,6 @@ function tempStr(testArg) {
   if (nameString === undefined) {
     return undefined;
   }
-  return `Hello, ${testArg}!\nYour name lowercased is "${testArg.toLowerCase()}"`;
+  return `Hello, ${testArg}!\nYour name lowercased is "${testArg.toLowerCase()}".`;
 }
 module.exports = tempStr;
