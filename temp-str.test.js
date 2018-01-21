@@ -9,5 +9,5 @@ test("Returns null if input argument is null", () => {
 });
 
 test("Returns string in specified format if input argument is not empty", () => {
-  expect(tempStr("Dominic")).toMatch("Hello Dominic!\nYour name lowercased is \"dominic\".");
+  expect(tempStr("Dominic")).toMatch("Hello, Dominic!\nYour name lowercased is \"dominic\".");
 });
