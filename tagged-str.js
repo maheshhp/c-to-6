@@ -3,6 +3,9 @@ function processEsc(arg) {
     .replace(/"/g, "&quot;");
 }
 function taggedStr(argv) {
-
+  if (typeof argv !== typeof "") {
+    return null;
+  }
+  return processEsc(argv);
 }
 module.exports = taggedStr;
