@@ -1,4 +1,4 @@
-const findAvg = require("./spread");
+const findAvg = require("./rest");
 
 test("Returns null if input argument is empty", () => {
   expect(findAvg()).toBe(null);
