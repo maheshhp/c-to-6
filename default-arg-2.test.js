@@ -9,7 +9,7 @@ test("Returns null if first argument is not a String", () => {
 });
 
 test("Returns string appendded with given length of ! characters", () => {
-  expect(defArgTwo("Hello", 2)).toMatch("Hello!!!");
+  expect(defArgTwo("Hello", 2)).toMatch("Hello!!");
 });
 
 test("Returns string appendded with ! characters equal to length of the String", () => {
