@@ -1,7 +1,7 @@
 const foot = {
   kick() {
     this.yelp = "Ouch!";
-    setImmediate(function () {
+    setImmediate(() => {
       console.log(this.yelp);
     });
   },

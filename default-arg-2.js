@@ -1,7 +1,7 @@
 function appendString(argOne, argTwo = arg => arg.length) {
-  if (typeof argOne !== typeof "") {
-    return null;
-  }
+  // if (typeof argOne !== typeof "") {
+  //   return null;
+  // }
   let strLen = 0;
   if (typeof argTwo !== typeof 1) {
     strLen = argTwo(argOne);
