@@ -13,5 +13,5 @@ test("Returns null if input argument array contains less than 5 items", () => {
 });
 
 test("Returns object in specified format if input argument is valid", () => {
-  expect(destruct([1, "jdoe", "jdoe@example.com", "John", "Doe"])).toBe({ username: "jdoe", email: "john@doe.com" });
+  expect(destruct([1, "jdoe", "john@doe.com", "John", "Doe"])).toEqual({ username: "jdoe", email: "john@doe.com" });
 });

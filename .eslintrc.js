@@ -5,7 +5,8 @@ module.exports = {
     "quotes" : ["error", "double"],
     "indent" : [2, 2, {"SwitchCase" : 1}],
     "no-console": 0,
-    "no-var" : 1
+    "no-var" : 1,
+    "prefer-const" : 0
   },
   "env" : {"es6" : true, node:true}
 };
