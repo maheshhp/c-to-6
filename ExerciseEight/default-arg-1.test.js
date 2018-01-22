@@ -11,3 +11,7 @@ test('Returns midpoint of valid argument and default if either inputs are not va
 test('Returns midpoint of given inputs if inputs are valid', () => {
   expect(defArgOne(1, 10)).toBe(5.5);
 });
+
+test('Returns midpoint of given inputs if if either inputs are valid', () => {
+  expect(defArgOne(1)).toBe(5.5);
+});

@@ -4,6 +4,11 @@ test('Returns null if input argument is empty', () => {
   expect(minFind()).toBe(null);
 });
 
+test('Returns undefined if input argument is an empty array', () => {
+  expect(minFind([])).toBe(undefined);
+});
+
+
 test('Returns null if input argument is not an array', () => {
   expect(minFind('Hello')).toBe(null);
 });

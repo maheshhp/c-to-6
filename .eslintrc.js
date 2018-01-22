@@ -8,5 +8,5 @@ module.exports = {
     "no-var" : 1,
     "prefer-const" : 0
   },
-  "env" : {"es6" : true, node:true}
+  "env" : {"es6" : true, "node":true, "jest":true}
 };
