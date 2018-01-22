@@ -5,5 +5,5 @@ test('prints and returns undefined', () => {
 });
 
 test('prints and returns HELLO ES6', () => {
-  expect(helloWorld("HELLO ES6")).toMatch("HELLO ES6");
+  expect(helloWorld('HELLO ES6')).toMatch('HELLO ES6');
 });

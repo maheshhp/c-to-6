@@ -1,9 +1,9 @@
-const foot = require("./arrow-fn-this");
+const foot = require('./arrow-fn-this');
 
-test("Returns undefined for anonymous function", () => {
+test('Returns undefined for anonymous function', () => {
   // expect(foot()).toBe(undefined);
 });
 
-test("Returns Ouch! for arrow function", () => {
+test('Returns Ouch! for arrow function', () => {
   // expect(foot()).toMatch("Ouch!");
 });

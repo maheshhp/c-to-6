@@ -1,6 +1,6 @@
 function processEsc(arg) {
-  return arg.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/'/g, "&apos;")
-    .replace(/"/g, "&quot;");
+  return arg.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/'/g, '&apos;')
+    .replace(/"/g, '&quot;');
 }
 function taggedStr(argv, ...sub) {
   let res = argv[0];

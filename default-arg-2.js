@@ -10,7 +10,7 @@ function appendString(argOne, argTwo = arg => arg.length) {
   }
   let transStr = argOne;
   for (let i = 0; i < strLen; i++) {
-    transStr += "!";
+    transStr += '!';
   }
   return transStr;
 }
